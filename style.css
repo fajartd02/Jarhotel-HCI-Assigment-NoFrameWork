@@ -1,0 +1,147 @@
+body{
+    background-color:black;
+    opacity: 100px;
+}
+nav{
+    background: rgba(15, 15, 15, 0.8);
+    color: white;
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    margin: 0%;
+}
+
+nav span{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 70px;
+    margin: 0px;
+    padding-left: 300px;
+    padding-right: 250px;
+}
+
+nav span:hover{
+    color: rgb(168, 162, 162);
+    opacity: 70%;
+    cursor: pointer;
+}
+
+nav a{
+    padding-right: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(168, 162, 162);
+    opacity: 70%;
+}
+
+.photos img{
+    display: inline;
+    width: 1080px;
+    height: 720px;
+    position: relative;
+    left: 340px;
+    z-index: -1;
+}
+
+.photos a{
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 5px black solid;
+    background-color: black;
+}
+
+#left-arrow{
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#right-arrow{
+    position: relative;
+    bottom: 200px;
+    left: 370px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#right-arrow:hover, #left-arrow:hover{
+    color: rgb(168, 162, 162);
+    opacity: 70%;
+}
+
+#Text{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#photo1{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+    float: left 33%;
+}
+
+#photo1:hover, #photo2:hover, #photo3:hover{
+    width: 800px;
+    height: 600px;
+    transition: 0.5s;
+}
+
+#photo2, #photo3{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#detail1{
+    position: absolute;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#detail2, #detail3{
+    position: absolute;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#more1, #more2, #more3{
+    display: none;
+}
+
+#btn1, #btn2, #btn3{
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    position: relative;
+    bottom: 360px;
+    left: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
